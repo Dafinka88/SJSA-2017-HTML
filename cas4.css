@@ -1,0 +1,78 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.main{
+	width: 1024px;
+	/*height: 1500px;
+	background-color: yellow;*/
+	margin: 0 auto;
+	border: 1px solid grey;
+	padding-bottom: 20px;
+}
+.transparent-box{
+	width: 1024px;
+	height: 150px;
+	background-color: rgba(0, 0, 0, .5);
+	/*padding: 10px 0 0 30px;*/
+	position: absolute;
+	bottom: 0;
+/*	top:0;*/
+
+}
+.transparent-box h1 {
+	color: #fff;
+	font-family:Arial;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 50px;
+	/*background-color: red;*/
+	margin: 20px 0 0 30px;
+	float: left;
+
+}
+.img-holder {
+	width: 1024px;
+	height: 570px;
+	position: relative;
+
+
+}
+.paragraf {
+	background-color: blue;
+	margin:0;
+	padding: 20px 15px;
+	color:#fff;
+	font-family: Arial;
+	line-height: 30px;
+	font-size: 10px;
+}
+
+.textovi{
+	font-weight: bold;
+	font-family: Arial;
+	margin:20px 0 0 20px;
+	line-height: 24px;
+}
+ul{
+	list-style-type: disc;
+	font-family: Arial;
+	margin: 20px 0 0 15px;
+
+}
+h3{ font-family: Arial;
+	margin:20px 0 0 15px;
+
+
+}
+.zavrsen{
+	margin: 20px 0 0 24px;
+	font-family: Arial;
+	line-height: 24px;
+
+
+
+}
