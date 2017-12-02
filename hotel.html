@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel booking form</title>
+</head>
+<link rel="stylesheet" type="text/css" href="hotel.css">
+
+<body>
+<div class="holder">
+
+	<header>
+		<div class="header">
+			<ul>
+				<li>
+					<a href="#">
+					    <h1>Rooms</h1>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<h1>Spa</h1>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<h1>Activities</h1>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<h1>Gallery</h1>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<h1>Contact</h1>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<h1>Book a room</h1>
+					</a>
+				</li>
+				<div style="clear: both;"></div>
+			</ul>
+	</header>
+	<div class="formstyle">
+<form action="project.js" method="get">
+	<fieldset>
+	<legend>Rezervacija na soba</legend>
+	<label for="name">Name</label>
+	<input type="text" name="Name" id="name">
+	<input type="Prezime" name="Prezime" placeholder="Prezime">
+	<input type="tel" name="Phone" id="phone" placeholder="enter your phone number">
+	<select name="Country">
+		<option value=""></option>
+		<option value="US">US</option>
+		<option value="UK">UK</option>
+		<option value="EU">EU</option>
+	</select>
+	
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>Booking details:</legend>
+		<input type="date" name="date" min="2017-11-30">
+		<input type="number" name="number of guests" min="1" max="6">
+		<select name="Tip na soba">
+		<option value="ednokrevetna">Ednokrevetna</option>
+		<option value="dvokrevetna">Dvokrevetna</option>
+		<option value="trokrevetna">Trokrevetna</option>
+		<option value="apartman">Apartman</option>
+			</select>
+			<br>
+			<label for="balkony">Do you require a balkony? </label>
+			
+			<input id="balkony" type="checkbox" name="balkony" value="yes" checked>
+
+	</fieldset>
+	<img src="sliki.jpg">
+   </form>
+</div>
+
+</div>
+<div class="slider-bacground"></div>
+
+</body>
+</html>
