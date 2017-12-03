@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Domasno01</title>
+	<script type="text/javascript">
+
+		function countBs(str) {
+
+    var count = 0;
+    for (var i = 0; i < str.length; i++) {
+        if (str.charAt(i) === "B") {
+            count++;
+
+        }
+ }
+        return (count); 
+}
+// console.log(countBs("BBBBBBBBC"));
+var str = "\"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was Born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-Builder of human happines\"";
+console.log(str + " has " + countBs(str) + " uppercase B characters ");
+
+
+
+
+function findMin(num_01, num_02){
+	return Math.min(num_01, num_02);
+
+}
+console.log(findMin(5, 10));
+console.log(" Min of 5 and 10 equals " + findMin(5, 10));
+
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
