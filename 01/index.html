@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro to Javascript</title>
+	<script type="text/javascript">
+		//String
+		// var name = "Mario Petkovski";
+		// Integer
+		// var age = 24;
+
+		// Floating Point
+		// var diff_age = 24.5;
+		// var ime_drugo = "Pero Perovski";
+		// var _1231 = "asdasd";
+
+		// Logs output in console
+		// console.log(name);
+
+		// Logs output in popup
+		// alert(ime_drugo);
+
+		// Bad variable names
+		// var 1231asdhj = "nesto";
+		// var ime drugo = "vrednost";
+		// var -yo = "nesto";
+
+		// Good variable names
+		// var simple_var = "Hello World";
+		// var year = 2017;
+
+		// var text_01 = "Good ";
+		// var text_02 = "Morning.";
+		// var result = text_01 + text_02;
+		// text_01 += text_02;
+		// console.log(text_01);
+		// console.log(5 == 6);
+
+		// var age, name, year, uste_nesto;
+
+		// var name = "Mario";
+		// var age = 24;
+		// var address = "Ulicata, br. 25, Skopje, Makedonija";
+
+		// console.log("Jas sum " + name + " i imam " + age + " godini i ziveam na " + address + ".");
+
+		// Multiplication and other (/, *, +, -)
+		// console.log(5 * 5);
+
+		// equal to
+		// console.log(5 == 5);
+
+		// not equal to
+		// console.log(5 != 5);
+
+		// less than
+		// console.log(5 < 3);
+
+		// greater than
+		// console.log(5 > 3);
+
+		//less then or equal to
+		// console.log(5 <= 3);
+
+		// greater then or equal to
+		// console.log(5 >= 4);
+
+		// Statements
+
+		// The if statement
+
+		// if(expression){
+			//code to be executed
+		// }
+
+		var age = 14;
+
+		// if(age >= 18){
+		// 	console.log("You are qualified to take the driving exam.");
+		// }
+
+		// The if... else statement
+
+		// if(age >= 18){
+		// 	console.log("You are qualified to take the driving exam.");
+		// }else{
+		// 	console.log("You are NOT qualified to take the driving exam.");
+		// }
+
+		// the if... else if statement
+
+		// var subject = "Javascript";
+
+		// if(subject == "Javascript"){
+		// 	console.log("You will need a Javascript book.");
+		// }else if(subject == "Ruby"){
+		// 	console.log("You will need Ruby on Rails book.");
+		// }else if(subject == "PHP"){
+		// 	console.log("You will need a PHP book.");
+		// }else{
+		// 	console.log("Unknown subject.");
+		// }
+
+		// var stepen = 30;
+		// var ctype = "f2c";
+
+		// Celsius to Fahrenhet: stepen * (9 / 5 + 32);
+		// Fahrenhet to Celsius: ((stepen -32) * 5 / 9);
+
+		// if(ctype == "c2f"){
+		// 	console.log(stepen + " from Celsius to Fahrenhet is: " + (stepen * (9 / 5) + 32));
+		// }else if(ctype == "f2c"){
+		// 	console.log(stepen + " from Fahrenhet to Celsius is: " + ((stepen -32) * 5 / 9));
+		// }else{
+		// 	console.log("Wrong conversion type");
+		// }
+
+		// The switch statement
+
+		// var grade = "Basdasd";
+
+		// switch(grade){
+		// 	case "A":
+		// 		console.log("Great Job");
+		// 	break;
+		// 	case "B":
+		// 		console.log("Good job");
+		// 	break;
+		// 	case "C":
+		// 		console.log("You passed");
+		// 	break;
+		// 	case "D":
+		// 		console.log("Needs work");
+		// 	break;
+		// 	case "F":
+		// 		console.log("You failed");
+		// 	break;
+		// 	default: console.log("Unknown grade");
+		// }
+
+		// var num_01 = prompt("Enter a number");
+		// var num_02 = prompt("Enter another number");
+
+		// if(parseInt(num_01) > parseInt(num_02)){
+		// 	console.log(num_01 + " is larger than " + num_02);
+		// }else if(parseInt(num_01) < parseInt(num_02)){
+		// 	console.log(num_01 + " is smaller than " + num_02);
+		// }else{
+		// 	console.log("Numbers are equal");
+		// }
+
+		// Arrays
+		// var alpha = new Array("apples", "orange", "banana", "mango");
+		var alpha = ["asdad", "qweqwe", "hgasd"];
+		// console.log("Steve Jobs eats " + fruits[0]);
+		var numbers = [1, 5, 6, 7];
+
+		// console.log(alpha[2]);
+		// console.log(numbers[3]);
+
+		var alphaNumeric = alpha.concat(numbers);
+		console.log(alphaNumeric);
+
+
+		var languages = ["javascript", "php", "go", "ruby", "c", "c#", "java"];
+		console.log(languages);
+
+		// array.pop();
+
+		var last = languages.pop();
+		console.log("Last element is: " + last);
+
+		// array.push();
+		languages.push("Pascal");
+		console.log(languages);
+
+		// array.slice(begin, end)
+		var sliced = languages.slice(4, 6);
+		console.log(sliced);
+
+		// array.splice(index, howMany, element)
+
+		var colors = ["red", "green", "blue", "cyan", "magenta", "karbon", "yellow"];
+		console.log(colors);
+		var removed = colors.splice(2, 0, "black");
+
+		console.log("After adding a colors the new array is: " + colors);
+		console.log("Removed item is: " + removed);
+
+		removed = colors.splice(3, 1);
+
+		console.log("After adding a colors the new array is: " + colors);
+		console.log("Removed item is: " + removed);
+	</script>
+</head>
+<body>
+
+</body>
+</html>
